@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Swim Fitt</string>
     <string name="action_settings">Settings</string>
+    <string name="justtostayfit">Just to Stay Fit</string>
 
     <string-array name="gender">
         <item>Male</item>
@@ -16,7 +17,12 @@
     </string-array>
 
 
+    <string-array name="distance">
+        <item>miles</item>
+        <item>yards</item>
+        <item>kilometers</item>
 
+    </string-array>
 
 
 </resources>

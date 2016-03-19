@@ -17,9 +17,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-        <activity android:name=".InfoActivity"></activity>
+        <activity android:name=".InfoActivity" />
+        <activity android:name=".GoalSelectionPage" />
+        <activity android:name=".SpecificGoalActivity"></activity>
     </application>
 
 </manifest>
