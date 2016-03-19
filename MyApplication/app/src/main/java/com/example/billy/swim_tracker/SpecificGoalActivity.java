@@ -19,7 +19,7 @@ public class SpecificGoalActivity extends AppCompatActivity {
 
         setView();
         setSpecificGoalAdapter();
-        
+
     }
 
 

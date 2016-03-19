@@ -10,6 +10,8 @@
     tools:context="com.example.billy.swim_tracker.SpecificGoalActivity">
 
 <LinearLayout
+    android:id="@+id/specificgoallayout"
+    android:layout_marginTop="70dp"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal">
@@ -19,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Swim"
-        android:textSize="20dp"
+        android:textSize="20sp"
         />
 
     <EditText
@@ -37,12 +39,78 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:text="this month"
+        android:textSize="20sp"
+        android:text="this week"
 
         />
 
 </LinearLayout>
 
+    <LinearLayout
+        android:id="@+id/specificgoallayout2"
+        android:layout_below="@+id/specificgoallayout"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/burnText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Burn  "
+        android:textSize="20sp"
+        />
+
+    <EditText
+        android:id="@+id/burnUserInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint=" 200 "/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="calories this week"
+
+        />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/specificgoallayout3"
+        android:layout_below="@+id/specificgoallayout2"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/swim2Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Swim"
+            android:textSize="20sp"
+            />
+
+        <EditText
+            android:id="@+id/swimLengthUserInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint=" 1 hr"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text=" duration this week"
+
+            />
+
+    </LinearLayout>
 
 </RelativeLayout>
